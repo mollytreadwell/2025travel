@@ -1,17 +1,12 @@
 import imgOne from "./images/apricale.jpg";
 import imgTwo from "./images/baja.jpg";
 import imgThree from "./images/mccall.jpeg";
-import pageOne from "./components/Apricale";
-import pageTwo from "./components/Baja";
-import pageThree from "./components/Idaho";
-import { Link } from "react-router-dom";
 
 export const data = [
 	{
 		id: 1,
 		date: "May 2025",
 		title: "Apricale, Italy",
-		page: <Link>{pageOne}</Link>,
 		description: 
 "This picturesque midieval village is perfectly situated between the Maritime Alps and the Italian Riviera, offering visitors a unique opprotunity to experience natural splendor and metropolitan delights in the same day.",
 		coverImg: imgOne,
@@ -22,7 +17,6 @@ export const data = [
 		id: 2,
 		date: "October 2025",
 		title: "Guadalupe Canyon, Mexico",
-		page: {pageTwo},
 		description: 
 "Experience stillness like never before. Guadalupe Canyon Oasis offers private naturally-fed hot spring pools amongst the dramatic desert mountains of northern Baja.",
 		coverImg: imgTwo,
@@ -33,7 +27,6 @@ export const data = [
 	id: 3,
 	date: "December 2025",
 	title: "McCall, Idaho",
-	page: {pageThree},
 	description: "The sweetest little resort town you ever did see. A scenic two hours north of Boise, McCall hosts an abundance of wilderness potential as well as a cute downtown with wide dining options, western character, and friendly locals.",
 	coverImg: imgThree,
 	country: "UNITED STATES",
